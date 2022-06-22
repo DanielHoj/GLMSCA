@@ -247,7 +247,7 @@ class GLMSCA:
         # Allow group_by to be a string of the column name of x
         if isinstance(group_by, str):
             try:
-                group_by = getattr(mdl.X, group_by)
+                group_by = getattr(self.X, group_by)
             except:
                    raise ValueError('group_by not a factor name')
         
