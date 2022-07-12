@@ -167,7 +167,7 @@ class GLMSCA:
         self.Y = Y
         self._x = None
         self._y = None
-        self.Options = GLMSCA_Options(None, 5, 'deviance', 'Poisson', None, False, True)
+        self.Options = GLMSCA_Options(None, 5, 'working', 'Poisson', None, False, True)
         self._results = GLMSCA_Results()
     
     @property
