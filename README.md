@@ -50,7 +50,7 @@ assumed to be the same distribution
 **interaction**: *boolean*
 
 Assumes interaction effect between responses, so that interaction
-between $β1$ and $β2$ is ( $β1*β2$ ). Default is false.
+between $β_1$ and $β_2$ is ( $β_1*β_2$ ). Default is false.
     
 **keep_conv_only**: *boolean*
 
